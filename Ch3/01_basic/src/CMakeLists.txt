@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.2)
-project(BasicProgram)
+project(BasicProgram LANGUAGES C CXX)
 add_executable(MainExe
     main.cpp
     src1.cpp
